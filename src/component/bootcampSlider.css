@@ -115,12 +115,12 @@
         gap: 100px;
         width: 100%;
         margin-top: 75px;
-        margin-bottom: 75px;
+        margin-bottom: 75px ;
     }
 
     .bootcampSliderLeft {
         right: unset;
-        width: 80%;
+        width: 100%;
     }
 
     .leftBottomBg {
@@ -174,4 +174,12 @@
         width: 8px;
     }
 
+}
+
+@media (max-width:1500px) {
+    .bootcampSliderWrapper {
+        display: flex;
+        align-items: center;
+        width: 80%;
+    }
 }
